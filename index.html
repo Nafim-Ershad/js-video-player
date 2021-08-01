@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Custom Video Player</title>
+</head>
+
+<body>
+    <select name="selected-video" class="selection">
+    </select>
+    <button class="selection-btn">Select</button>
+    <div class="video-wrapper">
+        <div class="video-info">
+            <span class="title"></span>
+            <span class="author">by<span></span></span>
+        </div>
+        <video>
+            <source src="" type="">
+        </video>
+        <div class="video-controls">
+            <div class="play-controls">
+                <i class='fas fa-play'></i>
+            </div>
+            <div class="seek-controls">
+                <input type="range" name="seek" id="" min="0" max="100" value="0" class="seek-track" step="0.01">
+            </div>
+            <div class="time">
+                <p class="currentTime">00:00</p> /
+                <p class="duration"> 00:00</p>
+            </div>
+            <div class="volume-controls">
+                <i class="volumeBtn"></i>
+                <span class="volume-rocker">
+                    <input type="range" name="volume-rocker" class="volume-range" min="0" max ="100" step="0.01" value="100">
+                </span>
+            </div>
+            <div class="fullscreen-controls">
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
