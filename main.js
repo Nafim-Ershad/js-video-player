@@ -7,19 +7,19 @@ const selectionBtn = document.querySelector(".selection-btn");
 const sources = [{
     title: "Sea waves & beach drone video | Free HD Video - no copyright",
     author: "Free HD videos - no copyright",
-    src: "./video1.mp4",
+    src: "./reference_videos/video1.mp4",
     type: "video/mp4",
     poster: null
 }, {
     title: "Sunrise video | Drone Footage | Free HD Video - no copyright",
     author: "Free HD videos - no copyright",
-    src: "./video2.mp4",
+    src: "./reference_videos/video2.mp4",
     type: "video/mp4",
     poster: null
 }, {
     title: "HD flower video | Amazing nature | Free HD videos - no copyright",
     author: "Free HD videos - no copyright",
-    src: "./video3.mp4",
+    src: "./reference_videos/video3.mp4",
     type: "video/mp4",
     poster: null
 }];
